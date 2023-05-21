@@ -22,5 +22,5 @@ After Running The Script Open the Url in the Browser
 <br>
 
 
-[<img src="https://storage.ko-fi.com/cdn/brandasset/kofi_button_blue.png?_gl=1*ay32ne*_ga*MTIwMDc5ODI4MS4xNjg0NjY3MjA5*_ga_M13FZ7VQ2C*MTY4NDY2NzIwOC4xLjEuMTY4NDY2NzUwMy41Ni4wLjA." alt= “” width="250px">](ko-fi.com/y3script)
+[<img src="https://storage.ko-fi.com/cdn/brandasset/kofi_button_blue.png?_gl=1*ay32ne*_ga*MTIwMDc5ODI4MS4xNjg0NjY3MjA5*_ga_M13FZ7VQ2C*MTY4NDY2NzIwOC4xLjEuMTY4NDY2NzUwMy41Ni4wLjA." alt= “” width="250px">](https://ko-fi.com/y3script)
 
