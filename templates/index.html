@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+<form><label class="form-label">Enter Your Data To Encode</label><input class="form-control shadow-none" type="text"><button class="btn btn-primary" type="button">Generate</button></form>
+<script src="{{ url_for('static',filename='assets/js/jquery-3.7.0.js') }}"></script>
+<script>
+    $(document).ready(function() {
+    $(window).keydown(function(event){
+        if(event.keyCode == 13) {
+        event.preventDefault();
+        return false;
+        }
+    });
+    });
+    $(".btn").click(()=>{
+        let input = $(".form-control").val()
+        $.get(`/api/${btoa(input)}`,(data)=>{
+            $("#qrcodemodelImage").attr('src',data)
+            $("#qrcodemodelData").text(input)
+            $('#qrcodemodel').modal('show');
+        })
+    })
+</script>
+{% endblock %}

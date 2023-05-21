@@ -1,0 +1,51 @@
+.navbar {
+  background: #37f4e8;
+}
+
+.main {
+  margin-top: 240px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .main > form {
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+}
+
+.main > form > .btn {
+  outline: none !important;
+  margin-top: 20px;
+  background: #37f4e8;
+  border: none;
+}
+
+.main > form > .form-control {
+  border-color: rgb(55,244,232);
+}
+
+.main > form > .btn:active {
+  outline: none !important;
+  background: #000000;
+  color: white;
+}
+
+.main > form > .form-label {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(26,65,63);
+  margin-bottom: 40px;
+}
+
+.main .btn {
+  background: #37f4e8;
+  border: none;
+}
+
+.main .btn:active {
+  background: #000000;
+  border: none;
+  color: white;
+}
+
